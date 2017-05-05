@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/l1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PairDeviceFragment"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/list1"
+        style="@android:style/Widget.ListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="top"
+        android:background="@android:color/darker_gray"
+        tools:ignore="InefficientWeight" />
+
+    <Button
+        android:id="@+id/load"
+        style="@android:style/Widget.Button.Small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="RELOAD"
+        tools:ignore="HardcodedText,InefficientWeight,RtlHardcoded,UnusedAttribute" />
+</LinearLayout>
